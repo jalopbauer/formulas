@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="85e91ec0-eb78-48bb-be5f-b94f152fdb5f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/composite/composite/implementation/Sum.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/composite/composite/implementation/Sum.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/composite/component/VariableComponent.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/composite/component/VariableComponent.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/scala/function_solve/SumTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/function_solve/SumTest.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +56,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="composite.composite" />
       <recent name="composite" />
     </key>
   </component>

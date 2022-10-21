@@ -1,3 +1,10 @@
 package composite.component
 
-case class VariableComponent(name:String)
+import composite.FunctionComponent
+import util.variable_input_method.VariableInputMethod
+
+case class VariableComponent(name:String, variableInputMethod: VariableInputMethod) extends FunctionComponent:
+  def calculate(): Double =
+    variableInputMethod.receiveVariableValue(name:String)
+    
+    
