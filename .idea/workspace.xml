@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85e91ec0-eb78-48bb-be5f-b94f152fdb5f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/composite/FunctionComponent.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/composite/FunctionComponent.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/composite/component/NumberComponent.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/composite/component/NumberComponent.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/composite/component/VariableComponent.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/composite/component/VariableComponent.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/composite/composite/CommutativeFunctionOneComponentListFunction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/composite/composite/CommutativeFunctionOneComponentListFunction.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/composite/composite/SingleComponentFunction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/composite/composite/SingleComponentFunction.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/composite/composite/TwoComponentsFunction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/composite/composite/TwoComponentsFunction.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/composite/composite/implementation/Multiplication.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/composite/composite/implementation/Multiplication.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/composite/composite/implementation/Power.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/composite/composite/implementation/Power.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/composite/composite/implementation/Subtraction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/composite/composite/implementation/Subtraction.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/composite/composite/implementation/Sum.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/composite/composite/implementation/Sum.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

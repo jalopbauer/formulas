@@ -5,3 +5,6 @@ import composite.FunctionComponent
 case class NumberComponent(number:Double) extends FunctionComponent:
   def calculate:Double =
     number
+
+  def getVariables:List[VariableComponent] =
+    List()
