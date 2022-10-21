@@ -1,9 +1,9 @@
 package composite.composite.implementation
 
 import composite.FunctionComponent
-import composite.composite.TwoComponentListFunction
+import composite.composite.CommutativeFunctionOneComponentListFunction
 
-case class Sum(leftFunctionComponents: List[FunctionComponent], rightFunctionComponents: List[FunctionComponent]) 
-  extends TwoComponentListFunction(leftFunctionComponents: List[FunctionComponent], rightFunctionComponents: List[FunctionComponent]):
+case class Sum(functionComponents: List[FunctionComponent])
+  extends CommutativeFunctionOneComponentListFunction(functionComponents: List[FunctionComponent]):
   def calculate(): Double =
-    combineFunctionComponents.foldLeft(0d)((acc, functionComponent) => acc + functionComponent.calculate())
+    functionComponents.foldLeft(0d)((acc, functionComponent) => acc + functionComponent.calculate())

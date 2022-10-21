@@ -1,0 +1,5 @@
+package composite.composite
+
+import composite.FunctionComponent
+
+trait CommutativeFunctionOneComponentListFunction(functionComponents: List[FunctionComponent])
