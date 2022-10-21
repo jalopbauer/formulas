@@ -36,4 +36,10 @@ class DivisionTest extends AnyFunSuite {
     val result = division.calculate()
     assert(result == 1.5)
   }
+
+  test("3 / 0 = Infinity") {
+    val division = Division(NumberComponent(3), NumberComponent(0))
+    val result = division.calculate()
+    assert(result == Double.PositiveInfinity)
+  }
 }
