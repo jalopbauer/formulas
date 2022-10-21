@@ -1,5 +1,3 @@
 package composite
 
-trait FunctionComponent {
-
-}
+trait FunctionComponent
