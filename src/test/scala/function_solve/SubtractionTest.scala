@@ -25,4 +25,9 @@ class SubtractionTest extends AnyFunSuite {
     assert(result == -1)
   }
 
+  test("3 - -2 = 5") {
+    val subtraction = Subtraction(NumberComponent(3), NumberComponent(-2))
+    val result = subtraction.calculate()
+    assert(result == 5d)
+  }
 }
