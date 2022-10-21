@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85e91ec0-eb78-48bb-be5f-b94f152fdb5f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/scala/composite/composite/TwoComponentListFunction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/composite/composite/TwoComponentsFunction.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/function_solve/SubtractionTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/function_solve/SubtractionTest.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

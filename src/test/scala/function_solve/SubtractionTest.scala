@@ -18,10 +18,11 @@ class SubtractionTest extends AnyFunSuite {
     val result = subtraction.calculate()
     assert(result == -4d)
   }
-//
-//  test("a=1 + 2 = 3") {
-//    val sum = Sum(List(VariableComponent("a", DefinedVariableInputMethod(1)), NumberComponent(2)))
-//    val result = sum.calculate()
-//    assert(result == 3)
-//  }
+
+  test("a=1 - 2 = -1") {
+    val subtraction = Subtraction(VariableComponent("a", DefinedVariableInputMethod(1)), NumberComponent(2))
+    val result = subtraction.calculate()
+    assert(result == -1)
+  }
+
 }
