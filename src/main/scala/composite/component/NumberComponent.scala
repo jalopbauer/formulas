@@ -1,3 +1,7 @@
 package composite.component
 
-case class NumberComponent(number:Double)
+import composite.FunctionComponent
+
+case class NumberComponent(number:Double) extends FunctionComponent:
+  def calculate():Double =
+    number

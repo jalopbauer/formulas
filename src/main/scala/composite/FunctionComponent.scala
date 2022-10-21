@@ -1,3 +1,4 @@
 package composite
 
-trait FunctionComponent
+trait FunctionComponent:
+  def calculate():Double

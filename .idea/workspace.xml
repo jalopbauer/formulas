@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85e91ec0-eb78-48bb-be5f-b94f152fdb5f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/composite/SingleComponentFunction.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/composite/TwoComponentListFunction.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/formulas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/formulas.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/composite/component/NonCalculableComponent.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/composite/component/NumberVariableComponent.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/composite/component/VariableComponent.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/composite/component/VariableComponent.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/composite/FunctionComponent.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/composite/FunctionComponent.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/composite/component/NumberComponent.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/composite/component/NumberComponent.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/composite/composite/TwoComponentListFunction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/composite/composite/TwoComponentListFunction.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/composite/composite/implementation/Sum.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/composite/composite/implementation/Sum.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +25,13 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Trait" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -35,22 +42,45 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2GPjjVnLJRHBoQzYAK4m0D9zOjD" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="composite" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="SumTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="formulas" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="testKind" value="Class" />
+      <option name="testClassPath" value="function_solve.SumTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="ScalaTest.SumTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -73,5 +103,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
