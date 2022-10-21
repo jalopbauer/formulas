@@ -1,0 +1,3 @@
+package composite.component
+
+case class NumberVariableComponent(nonCalculableComponent: NonCalculableComponent, numberComponent: NumberComponent, calculableComponentOnLeft: Boolean) extends NonCalculableComponentL
