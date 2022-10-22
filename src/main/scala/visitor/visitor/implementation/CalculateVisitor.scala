@@ -29,7 +29,3 @@ case class CalculateVisitor(totalValue:Double) extends FunctionVisitor():
         CalculateVisitor(0d).visit(subtraction.rightFunctionComponent).totalValue)
     case abs: Abs =>
       CalculateVisitor(CalculateVisitor(0d).visit(abs.functionComponent).totalValue.abs)
-//
-//  def helperFunction(variableComponentList: List[FunctionComponent]):Double =
-//    sum.functionComponents.foldLeft(0d)((acc, functionComponent) => acc + functionComponent.calculate)
-//    variableComponentList.flatMap(component => GetVariablesVisitor(0d).visit(component).variableComponentList)
