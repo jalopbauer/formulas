@@ -9,5 +9,7 @@ case class VariableComponent(name:String, variableInputMethod: VariableInputMeth
 
   def getVariables:List[VariableComponent]=
     List(this)
+  def showFunction: String =
+    name
   
     

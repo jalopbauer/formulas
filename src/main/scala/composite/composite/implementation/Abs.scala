@@ -7,3 +7,7 @@ case class Abs(functionComponent: FunctionComponent)
   extends SingleComponentFunction(functionComponent: FunctionComponent):
   def calculate: Double =
     functionComponent.calculate.abs
+
+  def showFunction: String =
+    val string = functionComponent.showFunction
+    s"|$string|"

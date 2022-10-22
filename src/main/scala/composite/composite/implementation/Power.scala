@@ -9,3 +9,8 @@ case class Power(leftFunctionComponent: FunctionComponent, rightFunctionComponen
   extends TwoComponentsFunction(leftFunctionComponent: FunctionComponent, rightFunctionComponent: FunctionComponent):
   def calculate: Double =
     pow(leftFunctionComponent.calculate,rightFunctionComponent.calculate)
+
+  def showFunction: String =
+    val leftString = leftFunctionComponent.showFunction
+    val rightString = rightFunctionComponent.showFunction
+    s"(($leftString) ^  $rightString)"

@@ -8,3 +8,7 @@ case class NumberComponent(number:Double) extends FunctionComponent:
 
   def getVariables:List[VariableComponent] =
     List()
+
+
+  def showFunction:String =
+    number.toString
