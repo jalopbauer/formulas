@@ -5,5 +5,5 @@ import composite.composite.SingleComponentFunction
 
 case class Abs(functionComponent: FunctionComponent)
   extends SingleComponentFunction(functionComponent: FunctionComponent):
-  def calculate(): Double =
+  def calculate: Double =
     functionComponent.calculate.abs
