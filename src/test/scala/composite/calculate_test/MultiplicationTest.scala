@@ -1,4 +1,4 @@
-package composite.function_solve
+package composite.calculate_test
 
 import composite.component.*
 import composite.composite.implementation.Multiplication
