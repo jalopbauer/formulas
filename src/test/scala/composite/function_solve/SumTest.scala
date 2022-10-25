@@ -1,4 +1,4 @@
-package function_solve
+package composite.function_solve
 
 import composite.composite.implementation.Sum
 import composite.component.*

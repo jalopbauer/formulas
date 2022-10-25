@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85e91ec0-eb78-48bb-be5f-b94f152fdb5f" name="Changes" comment="" />
+    <list default="true" id="85e91ec0-eb78-48bb-be5f-b94f152fdb5f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/function_solve/DivisionTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/composite/function_solve/DivisionTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/function_solve/MultiplicationTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/composite/function_solve/MultiplicationTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/function_solve/SubtractionTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/composite/function_solve/SubtractionTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/function_solve/SumTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/composite/function_solve/SumTest.scala" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,11 +63,11 @@
       <recent name="$PROJECT_DIR$/src/main/scala" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="composite.function_solve" />
       <recent name="visitor.visitor.implementation" />
       <recent name="composite.composite.implementation" />
       <recent name="function_solve" />
       <recent name="composite.composite" />
-      <recent name="composite" />
     </key>
   </component>
   <component name="RunManager" selected="ScalaTest.ScalaTests in 'scala'">
@@ -101,10 +107,12 @@
       <option name="testKind" value="All in package" />
       <option name="classBuf">
         <list>
-          <option value="function_solve.SumTest" />
-          <option value="function_solve.DivisionTest" />
-          <option value="function_solve.SubtractionTest" />
-          <option value="function_solve.MultiplicationTest" />
+          <option value="composite.function_solve.AbsTest" />
+          <option value="composite.function_solve.SumTest" />
+          <option value="composite.function_solve.PowerTest" />
+          <option value="composite.function_solve.DivisionTest" />
+          <option value="composite.function_solve.SubtractionTest" />
+          <option value="composite.function_solve.MultiplicationTest" />
         </list>
       </option>
       <method v="2">
